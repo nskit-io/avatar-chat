@@ -14,7 +14,7 @@ Every prompt engineering guide assumes GPT-4 or Claude. When you run **Gemma on 
 
 - Rule lists that work on cloud models **break** local models
 - Scaling from 4B to 26B doesn't just "get better" — it gets **different**
-- Character consistency requires techniques that don't exist in any guide
+- Character consistency requires techniques the mainstream guides don't cover
 
 We documented every failure and fix across 4 versions and 10 test personas.
 
@@ -26,10 +26,12 @@ We documented every failure and fix across 4 versions and 10 test personas.
 |---------|-------|--------|-------|
 | v1 | Gemma 3 4B | Rule lists | 9.0/10 |
 | v2 | Gemma 4 26B MoE | Rule lists | 8.7/10 |
-| v3 | Gemma 4 26B MoE | Natural language | **9.4/10** |
+| v3 | Gemma 4 26B MoE | Natural language | 9.4/10 |
 | final | Gemma 4 26B MoE | Natural + CSW hybrid | 9.3/10 |
 
-Upgrading to 26B with the same prompt **dropped quality by 0.3 points**. Rewriting rules as natural paragraphs **recovered +0.7 points**.
+Upgrading to 26B with the same prompt lowered scores slightly; rewriting the rules as natural paragraphs recovered and then exceeded them. The takeaway isn't the exact numbers — it's the direction: natural prose beat rule-lists on the larger local model.
+
+*Scores are internal, self-assessed against our own 10-persona rubric — illustrative of relative movement between prompt strategies, not an external benchmark.*
 
 ## Failure Patterns
 
