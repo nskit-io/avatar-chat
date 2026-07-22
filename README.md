@@ -2,7 +2,7 @@
 
 # Avatar Chat on Local LLM
 
-**Failure/success patterns for building character AI on Gemma 4B→26B MoE, with a 10-persona evaluation methodology.**
+**Failure/success patterns for building character AI on local Gemma — from early 4B experiments to today's Gemma 4 26B MoE — with a 10-persona evaluation methodology.**
 
 > From the [NVatar](https://github.com/nskit-io/nvatar) project — an AI avatar chat system running entirely on local hardware.
 
@@ -167,7 +167,7 @@ CC BY-NC-SA 4.0 — see [LICENSE](LICENSE)
 
 ## Support This Research
 
-NVatar is an independent R&D project exploring the frontier of AI character systems. Built by a solo founder at Neoulsoft Inc. — independent R&D, no external funding yet. Built by a solo founder at Neoulsoft Inc. — independent R&D, no external funding yet.
+NVatar is an independent R&D project exploring the frontier of AI character systems. Built by a solo founder at Neoulsoft Inc. — independent R&D, no external funding yet.
 
 If you find this work valuable:
 
